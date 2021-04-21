@@ -366,3 +366,78 @@ a i:hover {
     padding-bottom: 48px;
     padding-top: 41px;
 }
+
+.header2-anchor {
+    color: #21243d;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.header2-anchor:hover {
+    color: #2e3472;
+}
+
+/* Третья страничка . 1-я страничка во вложении*/
+
+/* Works detail*/
+
+.main-detail {
+    display: flex;
+    justify-content: center;
+}
+
+.main-detail__container {
+    width: 860px;
+}
+
+.main-detail__head-container {
+    margin-top: 78px;
+    margin-bottom: 42px;
+}
+
+.works-detail__header {
+    font-size: 34px;
+}
+
+.work-detail__year-comment {
+    display: flex;
+}
+
+.work-detail__text {
+    margin-top: 32px;
+    margin-bottom: 25px;
+}
+
+.work-detail__year {
+    background-color: #ff7c7c;
+    width: 62px;
+    height: 25px;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-detail__comment {
+    padding-left: 28px;
+    font-size: 20px;
+    color: #21243d;
+}
+
+.work-detail__image {
+    width: 860px;
+    margin: 25px 0 25px 0;
+}
+
+.works-detail__second-header {
+    font-size: 30px;
+    margin-top: 53px;
+}
+
+.works-detail__third-header {
+    font-size: 24px;
+    margin: 22px 0 22px 0;
+}
