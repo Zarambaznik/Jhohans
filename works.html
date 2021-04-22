@@ -15,11 +15,24 @@
 <body>
     <header class="header">
         <div class="header-container">
-            <nav class="navigation">
-                <a href="blog.html" class="blog">Blog</a>
-                <a href="works.html" class="works navigation-push">Works</a>
-                <a href="index.html" class="contact">Contact</a>
-            </nav>
+            <div class="header__body">
+                <div class="header__burger">
+                    <span></span>
+                </div>
+                <nav class="header__menu">
+                    <ul class="header__list">
+                        <li>
+                            <a href="blog.html" class="header__link">Blog</a>
+                        </li>
+                        <li>
+                            <a href="works.html" class="header__link navigation-push">Works</a>
+                        </li>
+                        <li>
+                            <a href="index.html" class="header__link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
 
@@ -135,6 +148,9 @@
             <p class="footer-text">Copyright ©2020 All rights reserved</p>
         </div>
     </footer>
+
+    <script src="js/jquery-3.6.0.slim.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
